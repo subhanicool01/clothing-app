@@ -1,8 +1,8 @@
 const produtsServiceLocalHost = 'http://localhost:8132/api'
 const usersServiceLocalHost = 'http://localhost:8232/api'
 
-const produtsServiceDevHost = 'https://34.41.246.17:2212/api'
-const usersServiceDevHost = 'https://34.41.246.17:3736/api'
+const produtsServiceDevelopmentHost = 'https://34.41.246.17:2212/api'
+const usersServiceDevelopmentHost = 'https://34.41.246.17:3736/api'
 
 const produtsServiceTestHost = ''
 const usersServiceTestHost = ''
@@ -23,7 +23,7 @@ const config = {
         previousOrderDetailsApiUrl: produtsServiceLocalHost + '/orders/get-order-details'
         // Add other local-specific configuration options
     },
-    dev: {
+    development: {
         categoryApiUrl: produtsServiceDevHost + '/categories/get-category-details',
         userLoginApiUrl: usersServiceDevHost + '/users/getDetails',
         userSignupApiUrl: usersServiceDevHost + '/users',
