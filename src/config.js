@@ -23,7 +23,7 @@ const config = {
         previousOrderDetailsApiUrl: produtsServiceLocalHost + '/orders/get-order-details'
         // Add other local-specific configuration options
     },
-    development: {
+    dev: {
         categoryApiUrl: produtsServiceDevHost + '/categories/get-category-details',
         userLoginApiUrl: usersServiceDevHost + '/users/getDetails',
         userSignupApiUrl: usersServiceDevHost + '/users',
