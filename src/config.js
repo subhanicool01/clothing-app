@@ -61,7 +61,7 @@ const config = {
     },
 };
 
-const environment = process.env.REACT_APP_ENV || 'development';
+const environment = process.env.REACT_APP_ENV || 'dev';
 const currentConfig = config[environment];
 console.log('REACT_APP_ENV:', environment);
 export default currentConfig;
