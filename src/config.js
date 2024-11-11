@@ -1,5 +1,5 @@
-const produtsServiceLocalHost = 'http://localhost:8132/api'
-const usersServiceLocalHost = 'http://localhost:8232/api'
+//const produtsServiceLocalHost = 'http://localhost:8132/api'
+//const usersServiceLocalHost = 'http://localhost:8232/api'
 
 const produtsServiceDevHost = 'http://localhost:2212/api'
 const usersServiceDevHost = 'http://localhost:3736/api'
